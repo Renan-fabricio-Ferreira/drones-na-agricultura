@@ -53,6 +53,7 @@
 
 }
 
+
 .avancada{
     margin-bottom: 20px;
     display: block;
@@ -174,3 +175,50 @@
    }
 }
 
+
+
+
+/*Parte dos drones e dos vídeos de tecnologias*/
+
+.drone-drone {
+    width: 100%;
+    height: 100%;
+    border: 7px solid #e59317;
+   object-fit: contain;
+   background-color: #ffffff;
+   object-position: 0% 20%;
+}
+
+.tecnologias-tec{
+    width: 100%;
+    
+}
+
+.tecnologias-tec iframe {
+    border: 7px solid  #e59317;
+}
+
+.tec{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   padding-left: 35%;
+   padding-right: 35%;
+   padding-top: 40px;
+   gap: 40px;
+
+    
+}
+
+@media(max-width: 1150px){
+.tec{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.tecnologias-tec iframe{
+    width: 300px;
+    
+}
+
+}
